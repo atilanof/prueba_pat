@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: HTML validator
-      run: docker run --rm -v ${{ github.workspace }}/:/ ghcr.io/validator/validator:latest vnu InicioMad.html
+      run: docker run --rm -v ${{ github.workspace }}/:/ ghcr.io/validator/validator:latest vnu /InicioMad.html
